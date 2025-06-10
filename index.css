@@ -1,0 +1,73 @@
+@media screen and (max-width: 700px) {
+
+    main {
+        margin-bottom: 100px;
+    }
+
+    #navn {
+        color: rgba(45, 64, 43, 1);
+        font-size: 40px;
+        line-height: 15px;
+        margin-top: 20px;
+    }
+
+    #titel {
+        font-family: pectia;
+        color: rgba(177, 13, 6, 1);
+        line-height: 5px;
+    }
+
+    .sec1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #blomster {
+        width: 75%;
+    }
+}
+
+@media screen and (min-width: 701px) {
+   .sec1 {
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 200px;
+    gap: 190px; 
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  #tekst-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #navn {
+    color: rgba(45, 64, 43, 1);
+    font-size: 60px;
+    line-height: 15px;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  #titel {
+    font-family: pectia;
+    color: rgba(177, 13, 6, 1);
+    font-size: 40px;
+    margin-top: 20px;
+  }
+
+  #blomster {
+    width: 34%;
+  }
+html, body {
+  overflow-x: hidden;
+}
+   
+
+}

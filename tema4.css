@@ -1,0 +1,113 @@
+@media screen and (max-width: 700px) {
+    #brainstorm_img {
+        width: 100%;
+        border-radius: 2px;
+    }
+
+    .tema4 p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #tegning {
+        width: 100%;
+        border-radius: 2px;
+    }
+
+    #form {
+        width: 100%;
+        border-radius: 2px;
+    }
+
+    #hund {
+        width: 50%;
+        margin-top: 20px;
+    }
+
+    #pil {
+        display: none;
+    }
+
+
+    #klik_her {
+        color: black;
+        text-align: center;
+        text-decoration: none;
+        font-size: 15px;
+    }
+}
+
+
+@media screen and (min-width: 701px) {
+   
+    #brainstorm_img {
+        width: 110%;
+        border-radius: 5px;
+    }
+
+
+    .tema4 {
+        margin-left: 200px;
+        margin-right: 200px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 50px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 80px;
+    }
+
+    .tema4 p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tegning_process {
+        margin-left: 200px;
+        margin-right: 200px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 50px;
+    }
+
+    #tegning {
+        width: 100%;
+        border-radius: 5px;
+    }
+
+    .js {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 20px;
+        margin-left: 200px;
+        margin-right: 200px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 50px;
+    }
+
+
+
+    #form {
+        width: 100%;
+        border-radius: 5px;
+    }
+
+    #hund {
+        width: 70%;
+    }
+
+
+    #pil {
+        width: 5%;
+        position: relative;
+        transform: rotate(-80deg);
+        top: -100px;
+        left: 49%;
+    }
+
+  
+
+}

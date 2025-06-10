@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="robots" content="noindex" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="general.css" />
+    <link rel="stylesheet" href="generel.css" />
+    <link rel="stylesheet" href="portfolio.css" />
+    <link rel="stylesheet" href="burger.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="favicon/favicon-96x96.png"
+      sizes="96x96"
+    />
+    <link rel="icon" type="image/svg+xml" href="favicon/favicon.svg" />
+    <link rel="shortcut icon" href="favicon/favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="favicon/apple-touch-icon.png"
+    />
+    <link rel="manifest" href="/favicon/site.webmanifest" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <h1><a class="logo_text" href="index.html">EG</a></h1>
+      </div>
+      <button class="burger-menu" onclick="toggleMenu()">☰</button>
+      <nav class="menu">
+        <button class="close-menu" onclick="toggleMenu()">×</button>
+        <a class="a_nav" href="index.html">FORSIDE</a>
+        <a class="a_nav" href="portfolio.html">PORTFOLIO</a>
+        <a class="a_nav" href="om.html">OM MIG</a>
+        <a class="a_nav" href="kontakt.html">KONTAKT</a>
+      </nav>
+    </header>
+    <main>
+      <section class="portfolio_tekst">
+        <h1 id="green_title">PORT</h1>
+        <h1 id="folio">FOLIO</h1>
+        <p class="smalltitle title1">1. semester</p>
+        <p class="smalltitle title2">2025</p>
+        <p class="smalltitle title3">mine projekter indtil videre</p>
+      </section>
+      <section id="velkommen">
+        <h2>Velkommen til!</h2>
+        <p id="velkommen_tekst">
+          Her får du et indblik i de projekter, jeg har arbejdet med på 1.
+          semester. Det har været en spændende start, fyldt med nye
+          udfordringer, læring og kreativ udvikling. Hvert projekt her
+          repræsenterer noget, jeg har lært – og lidt af mig selv.
+        </p>
+      </section>
+      <section id="projekter">
+        <p id="se_mere">klik på billederne for at se mere!</p>
+
+        <div class="tema-wrapper">
+          <div class="tema-kasse">
+            <p class="tema-title">tema 2</p>
+            <div class="tema pink">
+              <a href="tema2.html">
+                <img src="img/macbook.png" alt="macbook" />
+              </a>
+            </div>
+          </div>
+
+          <div class="tema-kasse">
+            <p class="tema-title">tema 3</p>
+            <div class="tema purple">
+              <a href="tema3.html">
+                <img src="img/drinks.png" alt="drinks" />
+              </a>
+            </div>
+          </div>
+
+          <div class="tema-kasse">
+            <p class="tema-title">tema 4</p>
+            <div class="tema blue">
+              <a href="tema4.html">
+                <img src="img/rabiesattack.png" alt="rabies" />
+              </a>
+            </div>
+          </div>
+
+          <div class="tema-kasse">
+            <p class="tema-title">tema 5</p>
+            <div class="tema green">
+              <a href="tema5.html">
+                <img src="img/redesign.png" alt="redesign" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p id="p_footer">social media</p>
+      <a
+        href="https://www.facebook.com/profile.php?id=100006924159928"
+        class="fa fa-facebook"
+        target="_blank"
+      ></a>
+      <a
+        href="https://www.instagram.com/_emilyxgold_/"
+        class="fa fa-instagram"
+        target="_blank"
+      ></a>
+      <a
+        href="https://www.linkedin.com/in/emily-g-649671222/"
+        class="fa fa-linkedin"
+        target="_blank"
+      ></a>
+    </footer>
+    <script>
+      function toggleMenu() {
+        document.querySelector(".menu").classList.toggle("active");
+      }
+    </script>
+  </body>
+</html>

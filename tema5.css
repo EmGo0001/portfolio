@@ -1,0 +1,176 @@
+@media screen and (max-width: 700px) {
+    .sandkassesite-button {
+        background-color: rgba(217, 193, 185, 1);
+        border-radius: 20px;
+        padding: 10px 15px;
+        margin: 50px auto;
+        cursor: pointer;
+        box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+        transition: all 0.3s ease;
+        display: block;
+        width: fit-content;
+        border: none;
+        color: black;
+
+    }
+
+    .sandkassesite-button:hover {
+        background-color: rgba(200, 170, 160, 1);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+        transform: translateY(-2px);
+    }
+
+    .klik-sandkassesite {
+        text-align: center;
+        font-size: 15px;
+        color: black;
+        margin: 0;
+    }
+
+    .sandkassesite-button a {
+    text-decoration: none;
+}
+
+    /* STYLETILE */
+     #styletile1 {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+        object-fit: contain;
+        margin-bottom: 20px;
+    }
+
+    #styletile2 {
+        width: 100%;
+        max-width: 428px;
+        height: auto;
+        object-fit: contain;
+        margin-bottom: 10px;
+    }
+
+    .text{
+        margin-bottom: 30px;
+    }
+
+    /* KLIK VIDERE */
+
+    #design {
+        width: 60%;
+    }
+
+    #klik_her {
+        color: black;
+        font-size: 15px;
+    }
+
+    #pil {
+      display: none;
+    }
+
+    .klik{
+    margin-top: 50px;
+    }
+
+    .lottie{
+        margin-top: 50px;
+    }
+}
+
+@media screen and (min-width: 701px) {
+
+    #design {
+        width: 70%;
+    }
+
+    .klik {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        gap: 50px;
+        margin-top: 50px;
+    }
+
+    #klik_her {
+        color: black;
+        font-size: 20px;
+    }
+
+    #pil {
+        width: 6%;
+        position: relative;
+        transform: rotate(-150deg);
+        top: -130px;
+        left: 53%;
+    }
+
+    /* STYLETILE */
+
+    #styletile1 {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+        object-fit: contain;
+    }
+
+    #styletile2 {
+        width: 100%;
+        max-width: 428px;
+        height: auto;
+        object-fit: contain;
+    }
+
+    .design {
+        padding: 2rem;
+        margin-left: 200px;
+        margin-right: 200px;
+        padding-left: 50px;
+        padding-right: 50px;
+
+    }
+
+    .content-wrapper {
+        display: flex;
+        gap: 2rem;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .image {
+        flex: 1 1 40%;
+    }
+
+    .text {
+        flex: 1 1 50%;
+        text-align: justify;
+        hyphens: auto;
+    }
+
+    /* SANDKASSESITE */
+    .sandkassesite-button {
+        background-color: rgba(217, 193, 185, 1);
+        border-radius: 20px;
+        padding: 15px 20px;
+        margin: 50px auto;
+        cursor: pointer;
+        box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+        transition: all 0.3s ease;
+        display: block;
+        width: fit-content;
+        border: none;
+    }
+
+    .sandkassesite-button:hover {
+        background-color: rgba(200, 170, 160, 1);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+        transform: translateY(-2px);
+    }
+
+    .klik-sandkassesite {
+        text-align: center;
+        font-size: 20px;
+        color: black;
+        margin: 0;
+    }
+
+}

@@ -1,0 +1,144 @@
+@media screen and (max-width: 700px) {
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+        position: relative;
+        z-index: 10;
+    }
+
+    .burger-menu {
+        display: inline-block;
+        font-size: 2rem;
+        background: none;
+        border: none;
+        color: rgba(45, 64, 43, 1);
+        cursor: pointer;
+        z-index: 11;
+
+    }
+
+    .menu {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(45, 64, 43, 1);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        transition: right 0.4s ease;
+        z-index: 10;
+    }
+
+    .menu.active {
+        right: 0;
+    }
+
+    .close-menu {
+        position: absolute;
+        top: 20px;
+        right: 30px;
+        font-size: 2.5rem;
+        background: none;
+        border: none;
+        color: white;
+        cursor: pointer;
+    }
+
+    .a_nav {
+        text-decoration: none;
+        font-size: 2rem;
+        font-family: old_regular;
+        transition: 0.3s;
+        color: white;
+    }
+
+    .a_nav:hover {
+        transform: scale(1.1);
+    }
+
+    .logo_text {
+        color: rgba(45, 64, 43, 1);
+        text-decoration: none;
+        font-family: old_regular;
+        display: inline-block;
+        font-size: smaller;
+        position: relative;
+        top: 5px;
+        
+    }
+}
+
+
+@media screen and (min-width: 701px) {
+
+    .logo_text {
+        color: rgba(45, 64, 43, 1);
+        text-decoration: none;
+        font-family: old_regular;
+    }
+
+    .burger-menu,
+    .close-menu {
+        display: none;
+    }
+
+    .menu {
+        display: flex;
+        gap: 20px;
+    }
+
+    .a_nav {
+        text-decoration: none;
+        font-size: 1.2rem;
+        color: rgba(45, 64, 43, 1);
+        font-family: old_regular;
+        border-radius: 30px;
+        transition: 0.3s;
+    }
+
+    .a_nav:hover {
+        transform: scale(1.1);
+    }
+
+    nav a {
+        padding: 15px 20px;
+
+    }
+
+    a {
+        text-decoration: none;
+        color: rgba(45, 64, 43, 1);
+    }
+
+
+
+    .a_nav:hover {
+        padding: 0.7rem;
+        transition: 0.5s;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        padding: 15px 20px;
+        align-items: center;
+        margin: 50px;
+    }
+
+    .burger-menu {
+        display: none;
+        font-size: 2rem;
+        background: none;
+        border: none;
+        cursor: pointer;
+    }
+
+
+}

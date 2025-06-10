@@ -1,0 +1,297 @@
+@media screen and (max-width: 700px) {
+    main {
+        margin: 50px;
+    }
+
+    .portfolio_tekst {
+        height: 240px;
+        position: relative;
+        left: -10px;
+    }
+
+    #velkommen {
+        padding-bottom: 30px;
+    }
+
+    #velkommen h2 {
+        text-align: center;
+    }
+
+    .tema {
+        border-radius: 10px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        margin-bottom: 30px;
+        cursor: pointer;
+        width: 100%;
+    }
+
+    .tema a {
+        width: 300px;
+        height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 10px;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    .tema img {
+        width: 80%;
+        height: auto;
+        object-fit: contain;
+    }
+
+    .pink {
+        background-color: rgba(255, 203, 225, 1);
+    }
+
+    .purple {
+        background-color: rgba(220, 204, 234, 1);
+    }
+
+    .blue {
+        background-color: rgba(188, 216, 236, 1);
+    }
+
+    .green {
+        background-color: rgba(214, 229, 190, 1);
+    }
+
+    #green_title {
+        color: rgba(45, 64, 43, 1);
+        font-size: 70px;
+        position: relative;
+        top: 90px;
+        left: -20px;
+    }
+
+    #folio {
+        color: rgba(177, 13, 6, 1);
+        font-size: 70px;
+        position: relative;
+        left: 90px;
+        top: -15px;
+    }
+
+    #se_mere {
+        width: 150px;
+        text-align: center;
+        transform: rotate(-10deg);
+        padding-bottom: 10px;
+    }
+
+    .smalltitle {
+        font-family: old_regular;
+        color: rgba(177, 13, 6, 1);
+    }
+
+    .title1 {
+        position: relative;
+        top: -180px;
+        left: 200px;
+        font-size: 20px;
+    }
+
+    .title2 {
+        position: relative;
+        top: -170px;
+        left: 20px;
+        font-size: 20px;
+    }
+
+    .title3 {
+        position: relative;
+        top: -180px;
+        left: 100px;
+        font-size: 18px;
+    }
+
+    html,
+    body {
+        overflow-x: hidden;
+    }
+
+    .tema-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .tema-kasse {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 300px;
+    }
+
+    .tema-title {
+        font-family: pectia;
+        font-size: 22px;
+        margin-bottom: 10px;
+        text-align: center;
+        color: rgba(45, 64, 43, 1);
+    }
+}
+
+@media screen and (min-width: 701px) {
+
+    main {
+        margin: 50px;
+    }
+
+    .portfolio_tekst {
+        transform: scale(1.8);
+        transform-origin: top center;
+        margin: 0 auto;
+        width: max-content;
+        position: relative;
+        left: -95px;
+        top: -80px;
+    }
+
+    #folio {
+        color: rgba(177, 13, 6, 1);
+        font-size: 60px;
+        position: relative;
+        left: 110px;
+        top: -20px;
+    }
+
+    .smalltitle {
+        font-family: old_regular;
+        color: rgba(177, 13, 6, 1);
+    }
+
+    .title1 {
+        position: relative;
+        top: -160px;
+        left: 205px;
+    }
+
+    .title2 {
+        position: relative;
+        top: -170px;
+        left: 50px;
+    }
+
+    .title3 {
+        position: relative;
+        top: -190px;
+        left: 120px;
+    }
+
+    #se_mere {
+        width: 180px;
+        text-align: center;
+        transform: rotate(-10deg);
+        padding-bottom: 10px;
+        font-size: 20px;
+    }
+
+    #velkommen h2 {
+        text-align: center;
+    }
+
+    #velkommen {
+        padding-bottom: 30px;
+        text-align: center;
+        font-size: x-large;
+        margin-top: -50px;
+    }
+
+    #velkommen_tekst {
+        font-size: 15px;
+        width: 950px;
+        margin: 0 auto;
+        text-align: center;
+        line-height: 2em;
+    }
+
+    .tema-wrapper {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        padding: 20px;
+    }
+
+    .tema-kasse {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 300px;
+    }
+
+    .tema-title {
+        font-family: pectia;
+        font-size: 25px;
+        margin-bottom: 10px;
+        text-align: center;
+        color: rgba(45, 64, 43, 1);
+    }
+
+    .tema {
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        margin-bottom: 100px;
+        text-align: center;
+        cursor: default;
+    }
+
+    .tema a {
+        width: 300px;
+        height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+    }
+
+    .tema img {
+        width: 80%;
+        height: auto;
+        object-fit: contain;
+    }
+
+    .pink {
+        background-color: rgba(255, 203, 225, 1);
+    }
+
+    .purple {
+        background-color: rgba(220, 204, 234, 1);
+    }
+
+    .blue {
+        background-color: rgba(188, 216, 236, 1);
+    }
+
+    .green {
+        background-color: rgba(214, 229, 190, 1);
+    }
+
+    #green_title {
+        color: rgba(45, 64, 43, 1);
+        font-size: 60px;
+        position: relative;
+        top: 70px;
+        left: 15px;
+    }
+
+    html,
+    body {
+        overflow-x: hidden;
+    }
+
+    #tema_overskrift {
+        display: flex;
+        justify-content: center;
+        gap: 290px;
+    }
+
+    #tema_overskrift p {
+        font-family: pectia;
+        font-size: 25px;
+    }
+}

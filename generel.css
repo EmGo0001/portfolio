@@ -1,0 +1,345 @@
+@font-face {
+    font-family: open_regular;
+    src: url(fonts/Open_Sans/static/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: open_bold;
+    src: url(fonts/Open_Sans/static/OpenSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: old_regular;
+    src: url(fonts/Old_Standard_TT/OldStandardTT-Regular.ttf);
+}
+
+@font-face {
+    font-family: old_bold;
+    src: url(fonts/Old_Standard_TT/OldStandardTT-Bold.ttf);
+}
+
+@font-face {
+    font-family: pectia;
+    src: url(fonts/pecita/Pecita.otf);
+}
+
+/* BAGGRUNDSFARVE */
+body {
+    background-color: rgba(255, 233, 225, 1);
+}
+
+
+/* HEADER */
+.topnav a.icon {
+    color: rgba(177, 13, 6, 1);
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.topnav a:hover {
+    color: rgba(126, 138, 120, 1);
+}
+
+/* FOOTER */
+
+footer {
+    padding: 5px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(217, 193, 185, 1);
+}
+
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.fa-facebook {
+    background: rgba(255, 233, 225, 1);
+    color: rgba(217, 193, 185, 1);
+}
+
+.fa-instagram {
+    background: rgba(255, 233, 225, 1);
+    color: rgba(217, 193, 185, 1);
+}
+
+.fa-linkedin {
+    background: rgba(255, 233, 225, 1);
+    color: rgba(217, 193, 185, 1);
+}
+
+#p_footer {
+    font-family: pectia;
+    font-size: large;
+    text-align: center;
+}
+
+/* FONTS */
+p {
+    font-family: open_regular;
+}
+
+h2 {
+    font-family: pectia;
+}
+
+#navn {
+    font-family: old_bold;
+}
+
+#titel {
+    font-family: pectia;
+}
+
+.btn {
+    font-family: old_regular;
+}
+
+#se_mere {
+    font-family: pectia;
+    color: rgba(177, 13, 6, 1);
+    font-size: 20px;
+}
+
+h1 {
+    font-family: old_bold;
+}
+
+
+
+@media screen and (max-width: 700px) {
+
+    /* MARGIN */
+    main {
+        margin: 30px;
+    }
+
+    /* TITEL */
+    #green {
+        color: rgba(45, 64, 43, 1);
+        font-size: 20px;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+
+    #se_mere {
+        font-family: pectia;
+        color: rgba(177, 13, 6, 1);
+        font-size: 18px;
+    }
+
+    /* P STYLING */
+    p {
+        font-size: 13px;
+        line-height: 1.5rem;
+        text-align: left;
+        hyphens: auto;
+    }
+
+    /* OVERSKRIFT FOR SEKTIONER */
+    #tema_titel {
+        text-align: center;
+        font-size: 20px;
+        padding-top: 50px;
+    }
+
+    /* FIGCAPTION FOR BILLEDER */
+    figcaption {
+        font-family: pectia;
+        font-size: 15px;
+    }
+
+    /* KLIK VIDERE PÅ SITE */
+    #klik_her {
+        color: black;
+        text-align: center;
+        font-size: 20px;
+        text-decoration: none;
+    }
+
+    .klik {
+        text-align: center;
+    }
+
+    #tema-nav {
+        padding: 20px;
+    }
+
+    #pil {
+        display: none;
+    }
+
+    /* HVAD HAR JEG LÆRT */
+    .læring {
+        background-color: rgba(217, 193, 185, 0.36);
+        border-radius: 30px;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .læring h2 {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    /* KLIK VIDERE TIL TEMA */
+    #tema-nav {
+        position: relative;
+        text-align: center;
+    }
+
+    .tema-link {
+        position: absolute;
+        transform: translateY(-50%);
+        text-decoration: none;
+        font-size: 15px;
+        font-family: pectia;
+        margin-left: 50px;
+        margin-right: 50px;
+        color: black;
+        width: 100%;
+    }
+
+    .tema-link.left {
+        right: 90px;
+    }
+
+    .tema-link.right {
+        right: -120px;
+    }
+
+      #tema-nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tema-link {
+        font-size: 15px;
+        padding: 10px;
+        text-align: center;
+        margin: 10px 0;
+        width: 100%;
+    }
+
+    #klik_her {
+        color: black;
+        text-align: center;
+        text-decoration: none;
+        font-size: 15px;
+    }
+
+    .klik a {
+        text-decoration: none;
+    }
+
+}
+
+@media screen and (min-width: 701px) {
+
+    /* TITEL */
+    #green {
+        color: rgba(45, 64, 43, 1);
+        font-size: 40px;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    /* P STYLING */
+
+    p {
+        font-size: 15px;
+        line-height: 2rem;
+        text-align: justify;
+        hyphens: auto;
+        margin-top: 0;
+    }
+
+    /* TEMA BESKRIVELSE */
+    .tema_tekst {
+        margin-left: 200px;
+        margin-right: 200px;
+        padding: 20px 50px;
+        text-align: justify;
+        hyphens: auto;
+    }
+
+    /* OVERSKRIFT FOR SEKTIONER */
+    #tema_titel {
+        text-align: center;
+    }
+
+    /* SE SITE */
+
+    .klik {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        gap: 50px;
+    }
+
+    #klik_her {
+        color: black;
+    }
+
+
+
+    /* TEMA VIDERE */
+    #tema-nav {
+        position: relative;
+        text-align: center;
+        padding: 50px;
+
+    }
+
+    .tema-link {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        text-decoration: none;
+        font-size: 20px;
+        font-family: pectia;
+        margin-left: 200px;
+        margin-right: 200px;
+        padding: 50px;
+        color: black;
+    }
+
+    .tema-link.left {
+        left: 0;
+    }
+
+    .tema-link.right {
+        right: 0;
+    }
+
+    .læring {
+        background-color: rgba(217, 193, 185, 0.36);
+        border-radius: 30px;
+        padding: 20px;
+    }
+
+    .læring h2 {
+        text-align: center;
+    }
+
+    figcaption {
+        font-family: pectia;
+        font-size: 19px;
+
+
+    }
+
+
+}
