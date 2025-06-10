@@ -19,7 +19,11 @@
         font-size: 20px;
         text-decoration: none;
         margin: 30px;
+    }
 
+    .light {
+        position: relative;
+        top: -20px;
     }
 
 
@@ -72,25 +76,25 @@
         margin-bottom: 10px;
     }
 
-#lighthouse_img {
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* Centrer billedet */
-  text-align: left; /* Align figcaption til venstre */
-  width: fit-content; /* Tilpas bredden til indholdet */
-  margin: 0 auto; /* Centrer hele div'en */
-}
+    #lighthouse_img {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: left;
+        width: fit-content;
+        margin: 0 auto;
+    }
 
-#lighthouse {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
+    #lighthouse {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
-#lighthouse_img figcaption {
-  text-align: left;
-  width: 60%;
-}
+    #lighthouse_img figcaption {
+        text-align: left;
+        width: 60%;
+    }
 
     #drink {
         width: 50%;

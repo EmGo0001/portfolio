@@ -36,11 +36,15 @@
         text-decoration: none;
         font-size: 15px;
     }
+
+    #brain {
+        float: left;
+    }
 }
 
 
 @media screen and (min-width: 701px) {
-   
+
     #brainstorm_img {
         width: 110%;
         border-radius: 5px;
@@ -108,6 +112,8 @@
         left: 49%;
     }
 
-  
+    #brain {
+        float: left;
+    }
 
 }

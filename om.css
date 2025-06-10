@@ -59,7 +59,7 @@
 
     }
 
-    #lidtommig {
+    .lidtommig {
         margin-bottom: 40px;
     }
 
@@ -157,7 +157,7 @@
     #stjerne_om2 {
         position: relative;
         top: -50px;
-        left: 140px;
+        left: 169px;
         width: 20%;
     }
 }
@@ -210,7 +210,7 @@
 
     }
 
-    #lidtommig {
+    .lidtommig {
         margin-bottom: 40px;
     }
 
@@ -309,7 +309,7 @@
 
     #stjerne_om2 {
         position: relative;
-        top: -220px;
+        top: -205px;
         left: 840px;
     }
 
